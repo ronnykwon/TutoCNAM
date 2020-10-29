@@ -78,6 +78,7 @@ namespace ReparationPhone.UI
             this.mode = Mode.Edit;
             this.tbNom.Text = r.Nom;
             this.ShowDialog();
+            
 
         }
     }

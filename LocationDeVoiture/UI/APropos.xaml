@@ -47,5 +47,8 @@
                 </Canvas>
             </Canvas>
         </Viewbox>
+        <Button HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="135.8" Height="56" Background="#FF89B1C5" BorderThickness="7,7,7,5" Opacity="0.5"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="24" Margin="341.4,33,0,0" Stroke="Black" VerticalAlignment="Top" Width="170.4" RadiusY="11.5" RadiusX="11.5"/>
+        <CalendarButton Content="CalendarButton" HorizontalAlignment="Left" Margin="10,81.36,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
