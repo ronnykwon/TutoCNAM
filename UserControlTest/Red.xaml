@@ -6,7 +6,10 @@
              xmlns:local="clr-namespace:UserControlTest"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" Background="Red">
-    <Grid>
-        <Label Content="Je suis le usercontrol Red.xaml"></Label>
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Content="label" Margin="0,0,10,10" HorizontalAlignment="Right" Width="56" Height="42" VerticalAlignment="Bottom"/>
     </Grid>
 </UserControl>
