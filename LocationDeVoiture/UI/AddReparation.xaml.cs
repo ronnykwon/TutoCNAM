@@ -54,8 +54,7 @@ namespace ReparationPhone.UI
             {
                 if(this.mode == Mode.Edit)
                 {
-                    this.reparation.Nom = this.tbNom.Text;
-                    //this.main.Refresh();
+                    ReparationAccess.UpdateReparation(this.reparation);
                 }else { 
                     Reparation rep = new Reparation(this.tbNom.Text, this.tbPrenom.Text, this.tbMobile.Text, this.tbEmail.Text, this.tbModel.Text, this.tbDescription.Text);
                     Business.Reparations.Add(rep);

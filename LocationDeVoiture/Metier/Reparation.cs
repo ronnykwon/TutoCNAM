@@ -11,6 +11,9 @@ namespace ReparationPhone.Metier
 {
     public class Reparation : BindableBase
     {
+
+        public int IdReparation { get; set; }
+
         private String nom;
         public String Nom
         {
