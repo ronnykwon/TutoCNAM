@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="UserControlTest.Gallery"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UserControlTest"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" Width="200.711">
+    <Grid>
+        <ListBox x:Name="gallery">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <EventSetter Event="Loaded" Handler="ListBoxItem_Loaded" />
+                    <EventSetter Event="Unloaded" Handler="ListBoxItem_Unloaded"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+    </Grid>
+</UserControl>

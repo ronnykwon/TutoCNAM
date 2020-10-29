@@ -20,6 +20,7 @@ namespace UserControlTest
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Gallery gallery = new Gallery();
         public MainWindow()
         {
             InitializeComponent();
@@ -37,6 +38,13 @@ namespace UserControlTest
             Red red = new Red();
             this.UserControlHolder.Children.Clear();
             this.UserControlHolder.Children.Add(red);
+        }
+
+        private void GalleryButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+            this.UserControlHolder.Children.Clear();
+            this.UserControlHolder.Children.Add(gallery);
         }
     }
 }

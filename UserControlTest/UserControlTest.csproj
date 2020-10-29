@@ -55,12 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Gallery.xaml.cs">
+      <DependentUpon>Gallery.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Red.xaml.cs">
       <DependentUpon>Red.xaml</DependentUpon>
     </Compile>
     <Compile Include="Yellow.xaml.cs">
       <DependentUpon>Yellow.xaml</DependentUpon>
     </Compile>
+    <Page Include="Gallery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
