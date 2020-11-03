@@ -86,7 +86,6 @@ namespace ReparationPhone.Metier
             using (MySqlCommand cmd = new MySqlCommand(sql, connection))
             {
                 cmd.Connection.Open();
-
                 cmd.Parameters.AddWithValue("@idReparation", r.IdReparation);
                 cmd.Parameters.AddWithValue("@nom", r.Nom);
                 cmd.Parameters.AddWithValue("@prenom", r.Prenom);
@@ -103,6 +102,5 @@ namespace ReparationPhone.Metier
                 return result;
             }
         }
-
     }
 }

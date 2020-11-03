@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReparationPhone", "Location
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlTest", "UserControlTest\UserControlTest.csproj", "{CBD8B3F6-D641-4A1C-8264-D7BBCB8EAEB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBoxCustom", "ListBoxCustom\ListBoxCustom.csproj", "{1CB083D3-C2D0-4B53-B48F-BFA0ABED95A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CBD8B3F6-D641-4A1C-8264-D7BBCB8EAEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBD8B3F6-D641-4A1C-8264-D7BBCB8EAEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBD8B3F6-D641-4A1C-8264-D7BBCB8EAEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB083D3-C2D0-4B53-B48F-BFA0ABED95A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB083D3-C2D0-4B53-B48F-BFA0ABED95A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB083D3-C2D0-4B53-B48F-BFA0ABED95A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB083D3-C2D0-4B53-B48F-BFA0ABED95A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
